@@ -1,5 +1,5 @@
 """
-WSGI config for gs38 project.
+WSGI config for gs39 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gs38.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gs39.settings')
 
 application = get_wsgi_application()
